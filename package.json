@@ -1,0 +1,34 @@
+{
+  "name": "webpack5-use",
+  "version": "1.0.0",
+  "description": "使用webpack5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "webpack serve --config ./scripts/webpack.local.conf.js"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forfutureme/webpack5-use.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forfutureme/webpack5-use/issues"
+  },
+  "homepage": "https://github.com/forfutureme/webpack5-use#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "html-webpack-plugin": "^5.0.0",
+    "webpack": "^5.21.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
